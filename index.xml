@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Giaiang&#39;s Blog</title>
+    <title>首页 on Giaiang&#39;s Blog</title>
     <link>https://giaiang.github.io/</link>
-    <description>Recent content in Home on Giaiang&#39;s Blog</description>
+    <description>Recent content in 首页 on Giaiang&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>Copyright © 2020, Jane Doe.</copyright>
-    <lastBuildDate>Sat, 12 Jul 2025 20:23:26 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jul 2025 21:24:58 +0800</lastBuildDate>
     <atom:link href="https://giaiang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>图集</title>
+      <link>https://giaiang.github.io/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://giaiang.github.io/photography/</guid>
+      <description>&lt;h2 id=&#34;上海&#34;&gt;上海&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/giaiang/giaiang-blog/main/static/images/DSC_0485.jpg&#34; alt=&#34;Shanghai-01&#34;&gt;&#xA;&lt;img src=&#34;https://raw.githubusercontent.com/giaiang/giaiang-blog/main/static/images/DSC_0446.jpg&#34; alt=&#34;Shanghai-02&#34;&gt;&#xA;&lt;img src=&#34;https://raw.githubusercontent.com/giaiang/giaiang-blog/main/static/images/DSC_0315.jpg&#34; alt=&#34;Shanghai-03&#34;&gt;&#xA;&lt;img src=&#34;https://raw.githubusercontent.com/giaiang/giaiang-blog/main/static/images/DSC_0479.jpg&#34; alt=&#34;Shanghai-04&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;杭州&#34;&gt;杭州&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/giaiang/giaiang-blog/main/static/images/DSC_1256.jpg&#34; alt=&#34;Hangzhou-01&#34;&gt;&#xA;&lt;img src=&#34;https://raw.githubusercontent.com/giaiang/giaiang-blog/main/static/images/DSC_1159.jpg&#34; alt=&#34;Hangzhou-02&#34;&gt;&#xA;&lt;img src=&#34;https://raw.githubusercontent.com/giaiang/giaiang-blog/main/static/images/DSC_1180.jpg&#34; alt=&#34;Hangzhou-03&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux内存布局</title>
+      <link>https://giaiang.github.io/linux%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80/</link>
+      <pubDate>Sat, 12 Jul 2025 21:24:58 +0800</pubDate>
+      <guid>https://giaiang.github.io/linux%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80/</guid>
+      <description>&lt;p&gt;This is a page about »Os_memory_layer«.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>使用Github Pages和Hugo搭建个人博客</title>
       <link>https://giaiang.github.io/%E4%BD%BF%E7%94%A8github-pages%E5%92%8Chugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
