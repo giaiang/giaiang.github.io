@@ -6,21 +6,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="shortcut icon" href="https://giaiang.github.io/images/favicon.png" />
-<title>Linux内存布局 | Giaiang&#39;s Blog ٩(๑•̀ω•́๑)۶</title>
-<meta name="title" content="Linux内存布局" />
-<meta name="description" content="This is a page about »Os_memory_layer«." />
-<meta name="keywords" content="OS," />
+<title>HTTP | Giaiang&#39;s Blog ٩(๑•̀ω•́๑)۶</title>
+<meta name="title" content="HTTP" />
+<meta name="description" content="HTTP状态码
+RFC规范，GET是安全且幂等的，因为它是“只读”的
+POST是“新增或提交数据”的操作，会修改服务器上的数据，是不安全和不幂等的
+HTTP缓存技术
+
+强制缓存：浏览器判断缓存没过期就使用浏览器本地缓存。（在HTTP响应头加入过期时间）
+协商缓存：发起请求后，由服务端判断是否可以使用本地缓存，是的话响应304。（基于Last-Modified最后修改时间/基于ETag唯一标识）
+
+" />
+<meta name="keywords" content="github,hugo,os," />
 
 
-<meta property="og:url" content="https://giaiang.github.io/linux%E5%86%85%E5%AD%98%E5%B8%83%E5%B1%80/">
+<meta property="og:url" content="https://giaiang.github.io/http/">
   <meta property="og:site_name" content="Giaiang&#39;s Blog ٩(๑•̀ω•́๑)۶">
-  <meta property="og:title" content="Linux内存布局">
-  <meta property="og:description" content="This is a page about »Os_memory_layer«.">
+  <meta property="og:title" content="HTTP">
+  <meta property="og:description" content="HTTP状态码
+RFC规范，GET是安全且幂等的，因为它是“只读”的 POST是“新增或提交数据”的操作，会修改服务器上的数据，是不安全和不幂等的
+HTTP缓存技术
+强制缓存：浏览器判断缓存没过期就使用浏览器本地缓存。（在HTTP响应头加入过期时间） 协商缓存：发起请求后，由服务端判断是否可以使用本地缓存，是的话响应304。（基于Last-Modified最后修改时间/基于ETag唯一标识）">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2025-07-12T21:24:58+08:00">
-    <meta property="article:modified_time" content="2025-07-12T21:24:58+08:00">
+    <meta property="article:published_time" content="2025-07-16T21:52:49+08:00">
+    <meta property="article:modified_time" content="2025-07-16T21:52:49+08:00">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Hugo">
     <meta property="article:tag" content="Os">
     <meta property="og:image" content="https://giaiang.github.io/images/share.png">
 
@@ -29,19 +42,25 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://giaiang.github.io/images/share.png">
-  <meta name="twitter:title" content="Linux内存布局">
-  <meta name="twitter:description" content="This is a page about »Os_memory_layer«.">
+  <meta name="twitter:title" content="HTTP">
+  <meta name="twitter:description" content="HTTP状态码
+RFC规范，GET是安全且幂等的，因为它是“只读”的 POST是“新增或提交数据”的操作，会修改服务器上的数据，是不安全和不幂等的
+HTTP缓存技术
+强制缓存：浏览器判断缓存没过期就使用浏览器本地缓存。（在HTTP响应头加入过期时间） 协商缓存：发起请求后，由服务端判断是否可以使用本地缓存，是的话响应304。（基于Last-Modified最后修改时间/基于ETag唯一标识）">
 
 
 
 
-  <meta itemprop="name" content="Linux内存布局">
-  <meta itemprop="description" content="This is a page about »Os_memory_layer«.">
-  <meta itemprop="datePublished" content="2025-07-12T21:24:58+08:00">
-  <meta itemprop="dateModified" content="2025-07-12T21:24:58+08:00">
+  <meta itemprop="name" content="HTTP">
+  <meta itemprop="description" content="HTTP状态码
+RFC规范，GET是安全且幂等的，因为它是“只读”的 POST是“新增或提交数据”的操作，会修改服务器上的数据，是不安全和不幂等的
+HTTP缓存技术
+强制缓存：浏览器判断缓存没过期就使用浏览器本地缓存。（在HTTP响应头加入过期时间） 协商缓存：发起请求后，由服务端判断是否可以使用本地缓存，是的话响应304。（基于Last-Modified最后修改时间/基于ETag唯一标识）">
+  <meta itemprop="datePublished" content="2025-07-16T21:52:49+08:00">
+  <meta itemprop="dateModified" content="2025-07-16T21:52:49+08:00">
   <meta itemprop="wordCount" content="6">
   <meta itemprop="image" content="https://giaiang.github.io/images/share.png">
-  <meta itemprop="keywords" content="Os">
+  <meta itemprop="keywords" content="Github,Hugo,Os">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
@@ -224,20 +243,32 @@
 </header>
   <main>
 
-<h1>Linux内存布局</h1>
+<h1>HTTP</h1>
 <p>
   <i>
-    <time datetime='2025-07-12'>
-      12 Jul, 2025
+    <time datetime='2025-07-16'>
+      16 Jul, 2025
     </time>
   </i>
 </p>
 
 <content>
-  <p>This is a page about »Os_memory_layer«.</p>
+  <p>HTTP状态码</p>
+<p>RFC规范，GET是安全且幂等的，因为它是“只读”的
+POST是“新增或提交数据”的操作，会修改服务器上的数据，是不安全和不幂等的</p>
+<p>HTTP缓存技术</p>
+<ul>
+<li>强制缓存：浏览器判断缓存没过期就使用浏览器本地缓存。（在HTTP响应头加入过期时间）</li>
+<li>协商缓存：发起请求后，由服务端判断是否可以使用本地缓存，是的话响应304。（基于Last-Modified最后修改时间/基于ETag唯一标识）</li>
+<li></li>
+</ul>
 
 </content>
 <p>
+  
+  <a href="https://giaiang.github.io/blog/github/">#Github</a>
+  
+  <a href="https://giaiang.github.io/blog/hugo/">#Hugo</a>
   
   <a href="https://giaiang.github.io/blog/os/">#Os</a>
   
